@@ -1,0 +1,39 @@
+.Countdown{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.time{
+    position: absolute;
+    color: #818cf8;
+    font-size: 40px;
+    top: 0px;
+    right: 140px;
+}
+
+.left{
+    position: absolute;
+    font-size: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #a3a3a4;
+    top :25px;
+    right: 95px;
+}
+
+.prep{
+    position: absolute;
+    font-size: 15px;
+    color: #a3a3a4;
+    top: 60px;
+    right: 95px;
+
+}
+
+.clock-icon{
+    position: absolute;
+    font-size: 50px;
+    color: #818cf8;
+    top: 45px;
+    right: 35px;
+}

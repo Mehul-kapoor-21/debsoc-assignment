@@ -1,0 +1,118 @@
+.home-page{
+    background-color: #111827;
+    margin: 0;
+    padding-bottom: 20px;
+    height: auto;
+}
+
+.timmer{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.title{
+    width: 100%;
+    height: 120px;
+}
+
+.title h1{
+    color: #818cf8;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+.title p{
+    color: #71737a;
+    margin-top: -40px;
+    font-size: 18px;
+}
+
+.title span{
+    color: #a3a3a4;
+    font-weight: 500;
+}
+
+.timmer-clock{
+    width: 100%;
+    height: 120px;
+}
+
+.container{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    background-color: #000000;
+   
+    color: #ffffff;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.content{
+    width: 100%;
+    height: auto;
+ 
+}
+
+.content h5{
+    font-size: 17px;
+    margin-left: 15px;
+}
+
+.content p{
+    margin-left: 15px;
+}
+
+.video{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.ifram-video{
+    height: 300px;
+    width: 90%;
+}
+
+.quiz-start-btn{
+    width: 100px;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #818cf8;
+    font-weight: 500;
+}
+
+.quiz-start-btn:hover{
+    box-shadow: 0 0 0.625em #818cf8;
+}
+
+
+@media (min-width:750px){
+    .timmer{
+        flex-direction: row;
+    }
+    .title{
+        width: 50%;
+    }
+    .timmer-clock{
+        width: 50%;
+    }
+    .container{
+        flex-direction: row;
+    }
+    .video{
+        margin-top: 0;
+        
+    }
+}
+
+

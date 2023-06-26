@@ -1,0 +1,37 @@
+.score-section{
+    width: 80%;
+    margin: auto;
+    height: auto;
+    border: 1px solid white;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+h2{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+h4 span{
+    font-size: 16px;
+    font-weight: 400;
+    color: #71737a;
+}
+
+h3 span{
+    font-size: 20px;
+    font-weight: 400;
+    color: #71737a;
+}
+
+.retry-btn{
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #818cf8;
+    font-weight: 600;
+}
